@@ -30,11 +30,11 @@ export class AppComponent {
       {
         field: 'hello',
         cellRenderer: BtnCellRenderer,
-        // cellRendererParams: {
-        //   clicked:  (field: any) => {
-        //     alert(`${field} was clicked several times...`);
-        //   },
-        // },
+        cellRendererParams: {
+          clicked:  (field: any) => {
+            alert(`${field} was clicked several times...`);
+          },
+        },
         minWidth: 150,
       },
       {
